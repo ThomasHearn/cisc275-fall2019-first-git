@@ -3,8 +3,15 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class MyCompare3 {
+public class MyCompare3 implements Comparable<Dog> {
 	
+
+	public int compareTo(Dog a){
+		return 0;
+	}
+
+
+
 	public static void main(String[] args) {
 		
 		List<Dog> dogs = new ArrayList<Dog>();
@@ -20,5 +27,6 @@ public class MyCompare3 {
 			}
 		});
 		System.out.println(dogs);
+		
 	}
 }

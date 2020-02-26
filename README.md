@@ -8,3 +8,4 @@
      - a comparator
 
 3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
+The Constructor call is in the sort() method and the class definition for the Comparator is located in the comparator interface  
